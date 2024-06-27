@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Background 3.jpg" />
+    <None Remove="Background 4.jpg" />
+    <None Remove="Background 5.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Background 3.jpg" />
+    <Resource Include="Background 4.jpg" />
+    <Resource Include="Background 5.jpg" />
+  </ItemGroup>
+
+</Project>
